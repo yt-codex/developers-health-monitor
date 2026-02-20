@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_utc": "2026-02-20T17:16:05Z",
+    "generated_utc": "2026-02-20T19:49:27Z",
     "sources": {
       "data_gov_sg": "https://data.gov.sg/api/action/package_search",
       "singstat": "https://tablebuilder.singstat.gov.sg/api/table"
