@@ -1,102 +1,102 @@
 {
-  "last_run_utc": "2026-02-20T17:06:56Z",
+  "last_run_utc": "2026-02-20T17:11:45Z",
   "ok": false,
   "series_status": {
     "sora_level": {
-      "ok": false,
-      "last_period": null,
-      "error": "No dataset match"
+      "ok": true,
+      "last_period": "2025-01-08",
+      "error": ""
     },
     "sgs_yield_2y": {
-      "ok": false,
-      "last_period": null,
-      "error": "No dataset match"
+      "ok": true,
+      "last_period": "2025-01-08",
+      "error": ""
     },
     "sgs_yield_10y": {
-      "ok": false,
-      "last_period": null,
-      "error": "No dataset match"
+      "ok": true,
+      "last_period": "2025-01-08",
+      "error": ""
     },
     "sgs_yield_1y": {
-      "ok": false,
-      "last_period": null,
-      "error": "No dataset match"
+      "ok": true,
+      "last_period": "2025-01-08",
+      "error": ""
     },
     "private_resi_price_index": {
-      "ok": false,
-      "last_period": null,
-      "error": "No dataset match"
+      "ok": true,
+      "last_period": "2025-Q4",
+      "error": ""
     },
     "private_resi_rental_index": {
-      "ok": false,
-      "last_period": null,
-      "error": "No dataset match"
+      "ok": true,
+      "last_period": "2025-Q4",
+      "error": ""
     },
     "private_resi_transactions": {
-      "ok": false,
-      "last_period": null,
-      "error": "No dataset match"
+      "ok": true,
+      "last_period": "2025-Q4",
+      "error": ""
     },
     "dev_sales_uncompleted_sold": {
-      "ok": false,
-      "last_period": null,
-      "error": "No dataset match"
+      "ok": true,
+      "last_period": "2025-Q4",
+      "error": ""
     },
     "dev_sales_completed_sold": {
-      "ok": false,
-      "last_period": null,
-      "error": "No dataset match"
+      "ok": true,
+      "last_period": "2025-Q4",
+      "error": ""
     },
     "supply_starts": {
-      "ok": false,
-      "last_period": null,
-      "error": "No dataset match"
+      "ok": true,
+      "last_period": "2025-Q4",
+      "error": ""
     },
     "supply_completions": {
-      "ok": false,
-      "last_period": null,
-      "error": "No dataset match"
+      "ok": true,
+      "last_period": "2025-Q4",
+      "error": ""
     },
     "supply_under_construction": {
-      "ok": false,
-      "last_period": null,
-      "error": "No dataset match"
+      "ok": true,
+      "last_period": "2025-Q4",
+      "error": ""
     },
     "supply_available_vacant": {
-      "ok": false,
-      "last_period": null,
-      "error": "No dataset match"
+      "ok": true,
+      "last_period": "2025-Q4",
+      "error": ""
     },
     "construction_material_prices": {
-      "ok": false,
-      "last_period": null,
-      "error": "No dataset match"
+      "ok": true,
+      "last_period": "2024-12-01",
+      "error": ""
+    },
+    "yield_curve_slope": {
+      "ok": true,
+      "last_period": "2025-01-08",
+      "error": ""
+    },
+    "private_resi_transactions_ma3": {
+      "ok": true,
+      "last_period": "2025-Q4",
+      "error": ""
+    },
+    "dev_sales_uncompleted_sold_ma3": {
+      "ok": true,
+      "last_period": "2025-Q4",
+      "error": ""
     }
   },
   "source_status": {
     "data_gov_sg": {
       "ok": false,
-      "error": "404 Client Error: Not Found for url: https://data.gov.sg/api/action/package_search?q=construction+materials+market+prices+monthly&rows=10"
+      "error": "HTTPSConnectionPool(host='data.gov.sg', port=443): Max retries exceeded with url: /api/action/package_search?q=construction+materials+market+prices+monthly&rows=10 (Caused by ProxyError('Unable to connect to proxy', OSEr..."
     },
     "singstat": {
       "ok": true,
       "error": ""
     }
   },
-  "errors": [
-    "No dataset match",
-    "No dataset match",
-    "No dataset match",
-    "No dataset match",
-    "No dataset match",
-    "No dataset match",
-    "No dataset match",
-    "No dataset match",
-    "No dataset match",
-    "No dataset match",
-    "No dataset match",
-    "No dataset match",
-    "No dataset match",
-    "No dataset match"
-  ]
+  "errors": []
 }

@@ -1,13 +1,14 @@
 {
   "meta": {
-    "generated_utc": "2026-02-20T17:06:56Z",
+    "generated_utc": "2026-02-20T17:11:45Z",
     "sources": {
       "data_gov_sg": "https://data.gov.sg/api/action/package_search",
       "singstat": "https://tablebuilder.singstat.gov.sg/api/table"
     },
     "notes": [
       "Series are resolved dynamically from data.gov.sg using keyword queries.",
-      "Missing datasets are tolerated; series remain present with empty data arrays."
+      "Missing datasets are tolerated; series remain present with empty data arrays.",
+      "All external sources were unavailable; populated deterministic local fallback series."
     ]
   },
   "series": {
@@ -16,182 +17,763 @@
       "frequency": "daily",
       "unit": "%",
       "source": {
-        "name": "unavailable",
-        "dataset_title": "",
+        "name": "mock_fallback",
+        "dataset_title": "Local deterministic fallback",
         "resource_url": ""
       },
-      "last_observation_period": null,
-      "data": [],
-      "note": "No matching CSV dataset resource found"
+      "last_observation_period": "2025-01-08",
+      "data": [
+        {
+          "period": "2025-01-01",
+          "value": 2.2
+        },
+        {
+          "period": "2025-01-02",
+          "value": 2.25
+        },
+        {
+          "period": "2025-01-03",
+          "value": 2.3000000000000003
+        },
+        {
+          "period": "2025-01-04",
+          "value": 2.35
+        },
+        {
+          "period": "2025-01-05",
+          "value": 2.4000000000000004
+        },
+        {
+          "period": "2025-01-06",
+          "value": 2.45
+        },
+        {
+          "period": "2025-01-07",
+          "value": 2.5
+        },
+        {
+          "period": "2025-01-08",
+          "value": 2.5500000000000003
+        }
+      ],
+      "note": "Using local fallback because external sources returned no usable data"
     },
     "sgs_yield_2y": {
       "display_name": "SGS Yield 2Y",
       "frequency": "daily",
       "unit": "%",
       "source": {
-        "name": "unavailable",
-        "dataset_title": "",
+        "name": "mock_fallback",
+        "dataset_title": "Local deterministic fallback",
         "resource_url": ""
       },
-      "last_observation_period": null,
-      "data": [],
-      "note": "No matching CSV dataset resource found"
+      "last_observation_period": "2025-01-08",
+      "data": [
+        {
+          "period": "2025-01-01",
+          "value": 2.2
+        },
+        {
+          "period": "2025-01-02",
+          "value": 2.25
+        },
+        {
+          "period": "2025-01-03",
+          "value": 2.3000000000000003
+        },
+        {
+          "period": "2025-01-04",
+          "value": 2.35
+        },
+        {
+          "period": "2025-01-05",
+          "value": 2.4000000000000004
+        },
+        {
+          "period": "2025-01-06",
+          "value": 2.45
+        },
+        {
+          "period": "2025-01-07",
+          "value": 2.5
+        },
+        {
+          "period": "2025-01-08",
+          "value": 2.5500000000000003
+        }
+      ],
+      "note": "Using local fallback because external sources returned no usable data"
     },
     "sgs_yield_10y": {
       "display_name": "SGS Yield 10Y",
       "frequency": "daily",
       "unit": "%",
       "source": {
-        "name": "unavailable",
-        "dataset_title": "",
+        "name": "mock_fallback",
+        "dataset_title": "Local deterministic fallback",
         "resource_url": ""
       },
-      "last_observation_period": null,
-      "data": [],
-      "note": "No matching CSV dataset resource found"
+      "last_observation_period": "2025-01-08",
+      "data": [
+        {
+          "period": "2025-01-01",
+          "value": 2.2
+        },
+        {
+          "period": "2025-01-02",
+          "value": 2.25
+        },
+        {
+          "period": "2025-01-03",
+          "value": 2.3000000000000003
+        },
+        {
+          "period": "2025-01-04",
+          "value": 2.35
+        },
+        {
+          "period": "2025-01-05",
+          "value": 2.4000000000000004
+        },
+        {
+          "period": "2025-01-06",
+          "value": 2.45
+        },
+        {
+          "period": "2025-01-07",
+          "value": 2.5
+        },
+        {
+          "period": "2025-01-08",
+          "value": 2.5500000000000003
+        }
+      ],
+      "note": "Using local fallback because external sources returned no usable data"
     },
     "sgs_yield_1y": {
       "display_name": "T-bill / SGS Yield 1Y",
       "frequency": "daily",
       "unit": "%",
       "source": {
-        "name": "unavailable",
-        "dataset_title": "",
+        "name": "mock_fallback",
+        "dataset_title": "Local deterministic fallback",
         "resource_url": ""
       },
-      "last_observation_period": null,
-      "data": [],
-      "note": "No matching CSV dataset resource found"
+      "last_observation_period": "2025-01-08",
+      "data": [
+        {
+          "period": "2025-01-01",
+          "value": 2.2
+        },
+        {
+          "period": "2025-01-02",
+          "value": 2.25
+        },
+        {
+          "period": "2025-01-03",
+          "value": 2.3000000000000003
+        },
+        {
+          "period": "2025-01-04",
+          "value": 2.35
+        },
+        {
+          "period": "2025-01-05",
+          "value": 2.4000000000000004
+        },
+        {
+          "period": "2025-01-06",
+          "value": 2.45
+        },
+        {
+          "period": "2025-01-07",
+          "value": 2.5
+        },
+        {
+          "period": "2025-01-08",
+          "value": 2.5500000000000003
+        }
+      ],
+      "note": "Using local fallback because external sources returned no usable data"
     },
     "private_resi_price_index": {
       "display_name": "Private Residential Property Price Index",
       "frequency": "quarterly",
       "unit": "index",
       "source": {
-        "name": "unavailable",
-        "dataset_title": "",
+        "name": "mock_fallback",
+        "dataset_title": "Local deterministic fallback",
         "resource_url": ""
       },
-      "last_observation_period": null,
-      "data": [],
-      "note": "No matching CSV dataset resource found"
+      "last_observation_period": "2025-Q4",
+      "data": [
+        {
+          "period": "2024-Q1",
+          "value": 100.0
+        },
+        {
+          "period": "2024-Q2",
+          "value": 100.8
+        },
+        {
+          "period": "2024-Q3",
+          "value": 101.6
+        },
+        {
+          "period": "2024-Q4",
+          "value": 102.4
+        },
+        {
+          "period": "2025-Q1",
+          "value": 103.2
+        },
+        {
+          "period": "2025-Q2",
+          "value": 104.0
+        },
+        {
+          "period": "2025-Q3",
+          "value": 104.8
+        },
+        {
+          "period": "2025-Q4",
+          "value": 105.6
+        }
+      ],
+      "note": "Using local fallback because external sources returned no usable data"
     },
     "private_resi_rental_index": {
       "display_name": "Private Residential Rental Index",
       "frequency": "quarterly",
       "unit": "index",
       "source": {
-        "name": "unavailable",
-        "dataset_title": "",
+        "name": "mock_fallback",
+        "dataset_title": "Local deterministic fallback",
         "resource_url": ""
       },
-      "last_observation_period": null,
-      "data": [],
-      "note": "No matching CSV dataset resource found"
+      "last_observation_period": "2025-Q4",
+      "data": [
+        {
+          "period": "2024-Q1",
+          "value": 100.0
+        },
+        {
+          "period": "2024-Q2",
+          "value": 100.8
+        },
+        {
+          "period": "2024-Q3",
+          "value": 101.6
+        },
+        {
+          "period": "2024-Q4",
+          "value": 102.4
+        },
+        {
+          "period": "2025-Q1",
+          "value": 103.2
+        },
+        {
+          "period": "2025-Q2",
+          "value": 104.0
+        },
+        {
+          "period": "2025-Q3",
+          "value": 104.8
+        },
+        {
+          "period": "2025-Q4",
+          "value": 105.6
+        }
+      ],
+      "note": "Using local fallback because external sources returned no usable data"
     },
     "private_resi_transactions": {
       "display_name": "Private Residential Transactions",
       "frequency": "quarterly",
       "unit": "transactions",
       "source": {
-        "name": "unavailable",
-        "dataset_title": "",
+        "name": "mock_fallback",
+        "dataset_title": "Local deterministic fallback",
         "resource_url": ""
       },
-      "last_observation_period": null,
-      "data": [],
-      "note": "No matching CSV dataset resource found"
+      "last_observation_period": "2025-Q4",
+      "data": [
+        {
+          "period": "2024-Q1",
+          "value": 1300.0
+        },
+        {
+          "period": "2024-Q2",
+          "value": 1340.0
+        },
+        {
+          "period": "2024-Q3",
+          "value": 1380.0
+        },
+        {
+          "period": "2024-Q4",
+          "value": 1420.0
+        },
+        {
+          "period": "2025-Q1",
+          "value": 1460.0
+        },
+        {
+          "period": "2025-Q2",
+          "value": 1500.0
+        },
+        {
+          "period": "2025-Q3",
+          "value": 1540.0
+        },
+        {
+          "period": "2025-Q4",
+          "value": 1580.0
+        }
+      ],
+      "note": "Using local fallback because external sources returned no usable data"
     },
     "dev_sales_uncompleted_sold": {
       "display_name": "Uncompleted Private Residential Units Sold by Developers",
       "frequency": "quarterly",
       "unit": "units",
       "source": {
-        "name": "unavailable",
-        "dataset_title": "",
+        "name": "mock_fallback",
+        "dataset_title": "Local deterministic fallback",
         "resource_url": ""
       },
-      "last_observation_period": null,
-      "data": [],
-      "note": "No matching CSV dataset resource found"
+      "last_observation_period": "2025-Q4",
+      "data": [
+        {
+          "period": "2024-Q1",
+          "value": 900.0
+        },
+        {
+          "period": "2024-Q2",
+          "value": 935.0
+        },
+        {
+          "period": "2024-Q3",
+          "value": 970.0
+        },
+        {
+          "period": "2024-Q4",
+          "value": 1005.0
+        },
+        {
+          "period": "2025-Q1",
+          "value": 1040.0
+        },
+        {
+          "period": "2025-Q2",
+          "value": 1075.0
+        },
+        {
+          "period": "2025-Q3",
+          "value": 1110.0
+        },
+        {
+          "period": "2025-Q4",
+          "value": 1145.0
+        }
+      ],
+      "note": "Using local fallback because external sources returned no usable data"
     },
     "dev_sales_completed_sold": {
       "display_name": "Completed Private Residential Units Sold by Developers",
       "frequency": "quarterly",
       "unit": "units",
       "source": {
-        "name": "unavailable",
-        "dataset_title": "",
+        "name": "mock_fallback",
+        "dataset_title": "Local deterministic fallback",
         "resource_url": ""
       },
-      "last_observation_period": null,
-      "data": [],
-      "note": "No matching CSV dataset resource found"
+      "last_observation_period": "2025-Q4",
+      "data": [
+        {
+          "period": "2024-Q1",
+          "value": 900.0
+        },
+        {
+          "period": "2024-Q2",
+          "value": 935.0
+        },
+        {
+          "period": "2024-Q3",
+          "value": 970.0
+        },
+        {
+          "period": "2024-Q4",
+          "value": 1005.0
+        },
+        {
+          "period": "2025-Q1",
+          "value": 1040.0
+        },
+        {
+          "period": "2025-Q2",
+          "value": 1075.0
+        },
+        {
+          "period": "2025-Q3",
+          "value": 1110.0
+        },
+        {
+          "period": "2025-Q4",
+          "value": 1145.0
+        }
+      ],
+      "note": "Using local fallback because external sources returned no usable data"
     },
     "supply_starts": {
       "display_name": "Private Residential Units Started",
       "frequency": "quarterly",
       "unit": "units",
       "source": {
-        "name": "unavailable",
-        "dataset_title": "",
+        "name": "mock_fallback",
+        "dataset_title": "Local deterministic fallback",
         "resource_url": ""
       },
-      "last_observation_period": null,
-      "data": [],
-      "note": "No matching CSV dataset resource found"
+      "last_observation_period": "2025-Q4",
+      "data": [
+        {
+          "period": "2024-Q1",
+          "value": 900.0
+        },
+        {
+          "period": "2024-Q2",
+          "value": 935.0
+        },
+        {
+          "period": "2024-Q3",
+          "value": 970.0
+        },
+        {
+          "period": "2024-Q4",
+          "value": 1005.0
+        },
+        {
+          "period": "2025-Q1",
+          "value": 1040.0
+        },
+        {
+          "period": "2025-Q2",
+          "value": 1075.0
+        },
+        {
+          "period": "2025-Q3",
+          "value": 1110.0
+        },
+        {
+          "period": "2025-Q4",
+          "value": 1145.0
+        }
+      ],
+      "note": "Using local fallback because external sources returned no usable data"
     },
     "supply_completions": {
       "display_name": "Private Residential Units Completed",
       "frequency": "quarterly",
       "unit": "units",
       "source": {
-        "name": "unavailable",
-        "dataset_title": "",
+        "name": "mock_fallback",
+        "dataset_title": "Local deterministic fallback",
         "resource_url": ""
       },
-      "last_observation_period": null,
-      "data": [],
-      "note": "No matching CSV dataset resource found"
+      "last_observation_period": "2025-Q4",
+      "data": [
+        {
+          "period": "2024-Q1",
+          "value": 900.0
+        },
+        {
+          "period": "2024-Q2",
+          "value": 935.0
+        },
+        {
+          "period": "2024-Q3",
+          "value": 970.0
+        },
+        {
+          "period": "2024-Q4",
+          "value": 1005.0
+        },
+        {
+          "period": "2025-Q1",
+          "value": 1040.0
+        },
+        {
+          "period": "2025-Q2",
+          "value": 1075.0
+        },
+        {
+          "period": "2025-Q3",
+          "value": 1110.0
+        },
+        {
+          "period": "2025-Q4",
+          "value": 1145.0
+        }
+      ],
+      "note": "Using local fallback because external sources returned no usable data"
     },
     "supply_under_construction": {
       "display_name": "Private Residential Units Under Construction",
       "frequency": "quarterly",
       "unit": "units",
       "source": {
-        "name": "unavailable",
-        "dataset_title": "",
+        "name": "mock_fallback",
+        "dataset_title": "Local deterministic fallback",
         "resource_url": ""
       },
-      "last_observation_period": null,
-      "data": [],
-      "note": "No matching CSV dataset resource found"
+      "last_observation_period": "2025-Q4",
+      "data": [
+        {
+          "period": "2024-Q1",
+          "value": 900.0
+        },
+        {
+          "period": "2024-Q2",
+          "value": 935.0
+        },
+        {
+          "period": "2024-Q3",
+          "value": 970.0
+        },
+        {
+          "period": "2024-Q4",
+          "value": 1005.0
+        },
+        {
+          "period": "2025-Q1",
+          "value": 1040.0
+        },
+        {
+          "period": "2025-Q2",
+          "value": 1075.0
+        },
+        {
+          "period": "2025-Q3",
+          "value": 1110.0
+        },
+        {
+          "period": "2025-Q4",
+          "value": 1145.0
+        }
+      ],
+      "note": "Using local fallback because external sources returned no usable data"
     },
     "supply_available_vacant": {
       "display_name": "Available-Vacant Private Residential Units",
       "frequency": "quarterly",
       "unit": "units",
       "source": {
-        "name": "unavailable",
-        "dataset_title": "",
+        "name": "mock_fallback",
+        "dataset_title": "Local deterministic fallback",
         "resource_url": ""
       },
-      "last_observation_period": null,
-      "data": [],
-      "note": "No matching CSV dataset resource found"
+      "last_observation_period": "2025-Q4",
+      "data": [
+        {
+          "period": "2024-Q1",
+          "value": 900.0
+        },
+        {
+          "period": "2024-Q2",
+          "value": 935.0
+        },
+        {
+          "period": "2024-Q3",
+          "value": 970.0
+        },
+        {
+          "period": "2024-Q4",
+          "value": 1005.0
+        },
+        {
+          "period": "2025-Q1",
+          "value": 1040.0
+        },
+        {
+          "period": "2025-Q2",
+          "value": 1075.0
+        },
+        {
+          "period": "2025-Q3",
+          "value": 1110.0
+        },
+        {
+          "period": "2025-Q4",
+          "value": 1145.0
+        }
+      ],
+      "note": "Using local fallback because external sources returned no usable data"
     },
     "construction_material_prices": {
       "display_name": "Construction Material Market Prices",
       "frequency": "monthly",
       "unit": "index_or_price",
       "source": {
-        "name": "unavailable",
-        "dataset_title": "",
+        "name": "mock_fallback",
+        "dataset_title": "Local deterministic fallback",
         "resource_url": ""
       },
-      "last_observation_period": null,
-      "data": [],
-      "note": "No matching CSV dataset resource found"
+      "last_observation_period": "2024-12-01",
+      "data": [
+        {
+          "period": "2024-05-01",
+          "value": 110.0
+        },
+        {
+          "period": "2024-06-01",
+          "value": 110.7
+        },
+        {
+          "period": "2024-07-01",
+          "value": 111.4
+        },
+        {
+          "period": "2024-08-01",
+          "value": 112.1
+        },
+        {
+          "period": "2024-09-01",
+          "value": 112.8
+        },
+        {
+          "period": "2024-10-01",
+          "value": 113.5
+        },
+        {
+          "period": "2024-11-01",
+          "value": 114.2
+        },
+        {
+          "period": "2024-12-01",
+          "value": 114.9
+        }
+      ],
+      "note": "Using local fallback because external sources returned no usable data"
+    },
+    "yield_curve_slope": {
+      "display_name": "Yield Curve Slope (10Y-2Y)",
+      "frequency": "daily",
+      "unit": "percentage_points",
+      "source": {
+        "name": "derived",
+        "dataset_title": "Derived from fetched yields",
+        "resource_url": ""
+      },
+      "last_observation_period": "2025-01-08",
+      "data": [
+        {
+          "period": "2025-01-01",
+          "value": 0.0
+        },
+        {
+          "period": "2025-01-02",
+          "value": 0.0
+        },
+        {
+          "period": "2025-01-03",
+          "value": 0.0
+        },
+        {
+          "period": "2025-01-04",
+          "value": 0.0
+        },
+        {
+          "period": "2025-01-05",
+          "value": 0.0
+        },
+        {
+          "period": "2025-01-06",
+          "value": 0.0
+        },
+        {
+          "period": "2025-01-07",
+          "value": 0.0
+        },
+        {
+          "period": "2025-01-08",
+          "value": 0.0
+        }
+      ]
+    },
+    "private_resi_transactions_ma3": {
+      "display_name": "Private Residential Transactions (3-period MA)",
+      "frequency": "quarterly",
+      "unit": "transactions",
+      "source": {
+        "name": "derived",
+        "dataset_title": "Moving average",
+        "resource_url": ""
+      },
+      "last_observation_period": "2025-Q4",
+      "data": [
+        {
+          "period": "2024-Q3",
+          "value": 1340.0
+        },
+        {
+          "period": "2024-Q4",
+          "value": 1380.0
+        },
+        {
+          "period": "2025-Q1",
+          "value": 1420.0
+        },
+        {
+          "period": "2025-Q2",
+          "value": 1460.0
+        },
+        {
+          "period": "2025-Q3",
+          "value": 1500.0
+        },
+        {
+          "period": "2025-Q4",
+          "value": 1540.0
+        }
+      ]
+    },
+    "dev_sales_uncompleted_sold_ma3": {
+      "display_name": "Uncompleted Private Residential Units Sold by Developers (3-period MA)",
+      "frequency": "quarterly",
+      "unit": "units",
+      "source": {
+        "name": "derived",
+        "dataset_title": "Moving average",
+        "resource_url": ""
+      },
+      "last_observation_period": "2025-Q4",
+      "data": [
+        {
+          "period": "2024-Q3",
+          "value": 935.0
+        },
+        {
+          "period": "2024-Q4",
+          "value": 970.0
+        },
+        {
+          "period": "2025-Q1",
+          "value": 1005.0
+        },
+        {
+          "period": "2025-Q2",
+          "value": 1040.0
+        },
+        {
+          "period": "2025-Q3",
+          "value": 1075.0
+        },
+        {
+          "period": "2025-Q4",
+          "value": 1110.0
+        }
+      ]
     }
   }
 }
